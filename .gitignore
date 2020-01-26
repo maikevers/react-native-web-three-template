@@ -2,6 +2,11 @@
 #
 .DS_Store
 
+
+# Expo
+.expo
+__generated__
+
 # Xcode
 #
 build/
