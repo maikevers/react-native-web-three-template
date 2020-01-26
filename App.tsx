@@ -3,8 +3,15 @@ import ExpoTHREE, { THREE } from 'expo-three';
 import React from 'react';
 
 export default class App extends React.Component {
-  componentWillMount() {
-    THREE.suppressExpoWarnings();
+  renderer: ExpoTHREE.Renderer;
+  scene: ExpoTHREE.THREE.Scene;
+  camera: ExpoTHREE.THREE.PerspectiveCamera;
+  cube: ExpoTHREE.THREE.Mesh;
+  constructor(props){
+    super(props);
+  }
+  componentDidMount() {
+    //THREE.suppressExpoWarnings();
   }
 
   render() {
