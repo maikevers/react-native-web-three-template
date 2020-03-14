@@ -22,8 +22,7 @@
     "react-native-screens": "2.0.0-alpha.12",
     "react-native-unimodules": "~0.7.0",
     "react-native-web": "~0.11.7",
-    "three": "^0.112.1",
-    "acorn": "^7.1.1"
+    "three": "^0.112.1"
   },
   "devDependencies": {
     "@babel/core": "~7.6.0",
